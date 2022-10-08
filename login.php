@@ -1,5 +1,5 @@
 <?php
-include('conexao.php');
+include('config/conexao.php');
 
 if(isset($_POST['email']) || isset($_POST['senha'])) {
 
@@ -22,7 +22,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
             $usuario =$sql_query->fetch_assoc();
 
             if(!isset($_SESSION)) {
-                session_star();
+                session_start();
             }
 
             $_SESSION['id'] = $usuario['id'];
