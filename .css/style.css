@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Consolas;
 }
 
 :root {
@@ -25,24 +25,41 @@
 
 }
 
-main{
+main {
     margin: 0 3rem;
 }
-body{
+
+body {
     background-color: var(--color2);
+}
+
+footer{
+    text-align:center;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius: 30px 30px 0 0;
 }
 
 /* ====== header  index ====== */
 
-#h1logo-header{
+#h1logo-header {
     color: var(--color1);
-    text-decoration:none;
+    text-decoration: none;
     text-shadow: 0 0 10px var(--color4);
 }
+
+#botao-header{
+    background: var(--color1);
+    color: var(--color4);
+    width: max-content;
+}
+
 .header-primario {
     padding: 1.2rem 5rem;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--color3);
     color: var(--color1);
     box-shadow: 0 0 10px var(--color3);
@@ -63,26 +80,35 @@ body{
     color: var(--color4);
 }
 
-.header-secundario a:hover{
+.header-secundario a:hover {
     color: var(--color3);
     transition: 0.3s linear;
 }
-/* ===== main ====== */
+
+/* ===== main index ====== */
+.container-bus {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 2rem 0;
+}
 
 .bus-img img {
-    position: relative;
-    margin: 2rem 5rem;
+    grid-area: 1 / 1 / 6 / 4; 
 }
 
 .bus-box {
-    position: absolute;
-    top: 30%;
-    left: 60%;
+    margin: 4rem 0;
     width: 400px;
+    height: max-content;
     background-color: var(--color3);
-    padding:2rem;
+    padding: 2rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px var(--color3); 
+    box-shadow: 0 0 10px var(--color3);
+    grid-area: 1 / 4 / 6 / 7; 
 }
 
 #form-bus-box {
@@ -92,13 +118,13 @@ body{
     color: var(--color1);
 }
 
-#form-bus-box select{
+#form-bus-box select {
     font-size: var(--sizeM1);
     padding: 5px;
     border-radius: 5px;
 }
 
-.botao-submit{
+.botao-submit {
     background: var(--color4);
     border: none;
     border-radius: 1rem;
@@ -111,16 +137,21 @@ body{
     width: 100%;
 }
 
-.botao-submit:hover{
+.botao-submit:hover {
     box-shadow: 0 0 10px var(--color1);
     color: var(--color4);
     background-color: var(--color1);
     transition: all 0.5s linear;
 }
-.info-box{
+
+.info-box {
     background-color: var(--color3);
     color: var(--color1);
     height: 10vh;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 1rem 2rem;
 }
+
+ /* ==== fim index ====== */
+
+ /* ======= Nossa empresa ===== */
