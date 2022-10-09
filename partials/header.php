@@ -11,14 +11,16 @@
 <body>
     <header class="header-index">
         <div class="header-primario">
-            <h1>Expresso 3B</h1>
+            <a href="./index.php" id="h1logo-header">
+                <h1>Expresso 3B</h1>
+            </a>
             <span style=" display: flex; gap: 2rem">
                 <a href="#" class="botao-submit">Comprar</a>
             </span>
         </div>
         <div class="header-secundario">
-            <a href="#">Nossa Empresa</a>
-            <a href="#">Guia de Viagens</a>
+            <a href="./index.php">Inicio</a>
+            <a href="./nossa_empresa.php">Nossa Empresa</a>
             <a href="#">Serviços</a>
             <a href="#">Frota</a>
             <a href="#">Novidades</a>

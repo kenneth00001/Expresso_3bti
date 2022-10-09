@@ -12,7 +12,7 @@
 
 <body>
     <?php include("partials/header.php") ?>
-    <main><hr>
+    <main>
         <div class="container-bus">
             <div class="bus-img">
                 <img src="img/bus.png" alt="bus">
@@ -29,7 +29,8 @@
                     <input class="botao-submit" type="submit" value=" Buscar Horários">
                 </form>
             </div>
-        </div><hr><br>
+        </div>
+        <hr><br>
         <div class="info-box">
             <h3>Próxima Linha a sair: </h3>
         </div>
