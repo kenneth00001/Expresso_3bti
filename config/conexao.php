@@ -5,6 +5,7 @@ $usuario ='root';
 $senha = '';
 $database ='expresso_3bti';
 
+session_start();
 
 $mysqli = new mysqli($hots, $usuario, $senha, $database);
 
