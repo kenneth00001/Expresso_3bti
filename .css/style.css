@@ -158,6 +158,10 @@ footer{
  /* ======= Nossa empresa ===== */
 
  .container-nossaempresa{
-    height: 50vh;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+    padding: 2rem;
+    border-radius: 1rem;
     background-color: #fff;
  }
