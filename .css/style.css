@@ -72,6 +72,7 @@ footer{
     gap: 2rem;
     background-color: #fff;
     border-radius: 0 0 30px 30px;
+    margin-bottom: 2rem;
 }
 
 .header-secundario a {
@@ -155,3 +156,8 @@ footer{
  /* ==== fim index ====== */
 
  /* ======= Nossa empresa ===== */
+
+ .container-nossaempresa{
+    height: 50vh;
+    background-color: #fff;
+ }

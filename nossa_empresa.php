@@ -13,6 +13,17 @@
 <body>
     <?php include("partials/header.php") ?>
     <section class="container-nossaempresa">
+        <p>Tava sem fazer nada, ai fizemos isso.... Taram, nossa empresa!</p>
+
+        <select name="produto" id="produto">
+            <?php require_once('class/Conexao.class.php');
+            $resultado = $pdo->select("SELECT * FROM categoria");
+            $pdo->desconectar();
+            if (count($resultado)) {
+                foreach ($resultado as $res) { ?> 
+                <option value="<?php echo $res['id’];?>" ><?php echo $res[‘descricao']; ?></option> <?php }
+                                                                                                                                                                                            } ?> </select>
+
 
     </section>
 </body>
