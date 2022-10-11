@@ -21,7 +21,7 @@ include('config/conexao.php');
         <h1> Seja Bem-Vindo! </h1>  
         <form action="" method="POST"><hr>
             <h3>E-mail</h3>
-            <input type="email" name="email" value="<?php  $_SESSION['email'] = $_POST ?>">
+            <input type="email" name="email">
             <h3>Senha</h3>
             <input type="password" name="senha">
             <p>
@@ -35,8 +35,6 @@ include('config/conexao.php');
         if (isset($_POST['email']) || isset($_POST['senha'])) {
 
             if (strlen($_POST['email']) == 0) {
-                if(isset($_POST['entrar'])){
-                    $_SESSION['email'] = $_POST;}
                 echo "<p class='msg_erro'> Prencha seu email </p>";
                 
             } else if (strlen($_POST['senha']) == 0) {
