@@ -12,8 +12,8 @@
 
 <body>
     <?php include("partials/header.php") ?>
-    <section class="container-nossaempresa">
-        <div class="info-nossaempresa">
+    <section class="container-geral">
+        <div class="info-geral">
             <h1 style="color: var(--color5);">Expresso 3B Fretes e Turismo LTDA.</h1>
             <hr><br>
             <h3>Sobre a empresa: </h3>
@@ -45,7 +45,7 @@
                 <li>Robert Anthoni - DEV </li>
                 <li>Kenneth Samuel - DEV </li>
                 <li>David B Clipel - DEV </li>
-                <li>Eduardo Lopes  -  Sócio colaborador </li>
+                <li>Eduardo Lopes  - Colaborador </li>
             </ul>
         </div>
     </section>

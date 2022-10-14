@@ -20,7 +20,7 @@
             <a href="#">Serviços</a>
             <a href="#">Frota</a>
             <a href="#">Novidades</a>
-            <a href="#">Contatos</a>
+            <a href="./contatos.php">Contatos</a>
             <a href="./login.php">login</a>
         </div>
     </header>
